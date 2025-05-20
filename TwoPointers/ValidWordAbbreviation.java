@@ -1,3 +1,4 @@
+package TwoPointers;
 public class ValidWordAbbreviation {
     public boolean validWordAbbreviation(String word, String abbr) {
         int i = 0, j = 0;
