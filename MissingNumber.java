@@ -26,4 +26,13 @@ public class MissingNumber {
     // int missingNum = supposeSum - currentSum;
     // return missingNum;
     // }
+
+    // Bit Manipulation solution
+    // public int missingNumber(int[] nums) {
+    // int missingNum = nums.length;
+    // for (int i = 0; i < nums.length; i++) {
+    // missingNum ^= i ^ nums[i];
+    // }
+    // return missingNum;
+    // }
 }
