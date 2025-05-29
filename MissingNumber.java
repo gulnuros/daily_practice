@@ -13,4 +13,17 @@ public class MissingNumber {
         int missingNum = supposeSum - currentSum;
         return missingNum;
     }
+
+    // solution using Gauss' Formula
+    // public int missingNumber(int[] nums) {
+    // int supposeSum = (nums.length * (nums.length + 1)) / 2;
+
+    // int currentSum = 0;
+    // for (int num : nums) {
+    // currentSum += num;
+    // }
+
+    // int missingNum = supposeSum - currentSum;
+    // return missingNum;
+    // }
 }
