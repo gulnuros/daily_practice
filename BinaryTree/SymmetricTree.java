@@ -13,11 +13,14 @@ public class SymmetricTree {
             this.val = val;
         }
 
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
+    //     TreeNode(int val, TreeNode left, TreeNode right) {
+    //         this.val = val;
+    //         this.left = left;
+    //         this.right = right;
+    //     }
+    //     this.val=val;this.left=left;this.right=right;
+    // }
+
     public boolean isSymmetric(TreeNode root) {
         return isMirror(root.left, root.right);
     }
